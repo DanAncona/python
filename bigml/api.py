@@ -248,7 +248,7 @@ class BigML(object):
         self.model_url = self.url + MODEL_PATH
         self.prediction_url = self.url + PREDICTION_PATH
 
-        locale.setlocale(locale.LC_ALL, 'en_US')
+#         locale.setlocale(locale.LC_ALL, 'en_US')
 
     def _create(self, url, body):
         """Creates a new remote resource.
